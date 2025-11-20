@@ -2,7 +2,15 @@
   "name" : "layer-strapi",
   "version" : "1.0.0",
   "private" : true,
+  "scripts" : {
+    "develop" : "strapi develop",
+    "start" : "strapi start",
+    "build" : "strapi build"
+  }
   "dependencies" : {
-    "@strapi/strapi":"latest"
+    "strapi":"^4.15.0",
+    "strapi-admin":"^4.15.0",
+    "strapi-utils":"^4.15.0",
+    "sqlite3": "^5.1.6"
   }
 }
